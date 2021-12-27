@@ -1,12 +1,13 @@
 // A homepage with contact details
 
 import { NavLink } from "react-router-dom";
+import OpenCloseToggle from ".././components/OpenCloseToggle";
 
 export default function HomePage() {
   return (
     <div>
       <h3> Welcome to Utrecht Doctors </h3>
-      <p> We are open </p>
+      <OpenCloseToggle />
       <p> To make an appointment </p>
       <p> Call: 030 197 5555 </p>
 
