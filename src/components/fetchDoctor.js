@@ -44,7 +44,7 @@ export const FetchDoctor = () => {
         </tr>
         {/* Array.map function. The argument to map should be a function that takes a single element from the array as an argument and returns a new element.  */}
         {doctors.map((d) => (
-          <tr>
+          <tr key={d.id}>
             <td>{d.doctor}</td>
             <td>{d.onDuty ? "On Duty" : "Not on Duty"}</td>
           </tr>
