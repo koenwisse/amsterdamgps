@@ -42,6 +42,7 @@ export const FetchDoctor = () => {
           <th>Doctor</th>
           <th>Availability </th>
         </tr>
+        {/* Array.map function. The argument to map should be a function that takes a single element from the array as an argument and returns a new element.  */}
         {doctors.map((d) => (
           <tr>
             <td>{d.doctor}</td>

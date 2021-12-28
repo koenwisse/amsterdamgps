@@ -1,9 +1,7 @@
 // A page where new patients can sign up
-
+import AddPatientForm from "../components/addPatientForm";
+// write a function to add a new patient
 export default function PatientSignUp() {
-  return (
-    <div>
-      <p> This is our PatientSignUp page</p>
-    </div>
-  );
+  // make the function addPatient available in addPatientForm
+  return <AddPatientForm />;
 }
