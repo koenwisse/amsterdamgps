@@ -4,8 +4,7 @@ import NavBar from "./components/NavBar";
 import HomePage from "./pages/HomePage";
 import PatientDatabase from "./pages/PatientDatabase";
 import DoctorSchedule from "./pages/DoctorSchedule";
-import PatientSignUp from "./pages/PatientSignUp";
-
+import Signup from "./pages/Signup";
 function App() {
   return (
     <div className="App">
@@ -16,7 +15,7 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/PatientDatabase" element={<PatientDatabase />} />
         <Route path="/DoctorSchedule" element={<DoctorSchedule />} />
-        <Route path="/PatientSignUp" element={<PatientSignUp />} />
+        <Route path="/PatientSignUp" element={<Signup />} />
         {/* <Route path=":detail" element={<DetailPage />} /> */}
       </Routes>
     </div>

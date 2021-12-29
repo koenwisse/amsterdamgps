@@ -77,6 +77,7 @@ export default function AddPatientForm() {
               value={gender}
               onChange={(event) => setGender(event.target.value)}
             >
+              <option value={0}>Select</option>
               <option value="male">Male</option>
               <option value="female">Female</option>
             </select>

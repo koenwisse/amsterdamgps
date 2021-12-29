@@ -123,6 +123,7 @@ A wireframe of the app will be provided to you along with this assessment. To ge
 | The navbar indicates what page you are on                 | 1      |
 | Total                                                     | 5      |
 
+RESULT: 5 POINTS
 Hint: to indicate what page a user is on use the `<NavLink />` component
 
 https://github.com/ReactTraining/react-router/blob/master/packages/react-router-dom/docs/api/NavLink.md
@@ -146,6 +147,7 @@ Business logic: the practice is open between 08:00 and 16:59
 | Total                                                                  | 4      |
 
 Hint: You will have to google how to get the current hour of the day using javascript to be able to display **open** or **closed** dynamically.
+RESULT: 5/5 POINTS
 
 ### 3. As a patient I want to see which doctors are on duty so I can determine wether I should go to the doctor today
 
@@ -167,6 +169,8 @@ DONE - On our who is on duty page, we display up to date information about which
 | Doctor availability is displayed using an html `table` element    | 1      |
 | Total                                                             | 7      |
 
+RESULT: 5/5 POINTS
+
 ### 4. As a new patient I want to be able to sign up
 
 - We want to make a form where new patients can sign up
@@ -184,6 +188,8 @@ DONE - On our who is on duty page, we display up to date information about which
 | The success message is an alert, prompt or confirm popup                         | -1     |
 | Submitting the form refreshes the page                                           | -2     |
 | Total                                                                            | 8      |
+
+RESULT: 6/8 POINTS, miss success message 2 p
 
 ### 5. As a doctor I want to be able to view which patients I have, so I can see who I am responsible for
 
