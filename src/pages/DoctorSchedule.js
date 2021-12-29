@@ -1,7 +1,7 @@
 // A page where patients can see who is on duty and contact details
 
 import OpenCloseToggle from ".././components/OpenCloseToggle";
-import { FetchDoctor } from "../components/fetchDoctor";
+import FetchDoctor from "../components/fetchDoctor";
 
 export default function DoctorSchedule() {
   return (

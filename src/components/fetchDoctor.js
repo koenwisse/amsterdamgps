@@ -4,7 +4,7 @@ const api =
   "https://my-json-server.typicode.com/Codaisseur/patient-doctor-data/doctors";
 
 // write function fFetchDoctor that fetches the right data in the table
-export const FetchDoctor = () => {
+export default function FetchDoctor() {
   // use UseState
   const [
     // get the data
@@ -53,4 +53,4 @@ export const FetchDoctor = () => {
       </table>
     </div>
   );
-};
+}
