@@ -4,6 +4,7 @@ import NavBar from "./components/NavBar";
 import HomePage from "./pages/HomePage";
 import PatientDatabase from "./pages/PatientDatabase";
 import DoctorSchedule from "./pages/DoctorSchedule";
+import DetailPatient from "./pages/DetailPatient";
 import Signup from "./pages/Signup";
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
         <Route path="/PatientDatabase" element={<PatientDatabase />} />
         <Route path="/DoctorSchedule" element={<DoctorSchedule />} />
         <Route path="/PatientSignUp" element={<Signup />} />
-        {/* <Route path=":detail" element={<DetailPage />} /> */}
+        <Route path="/patients/:id" element={<DetailPatient />} />
       </Routes>
     </div>
   );
