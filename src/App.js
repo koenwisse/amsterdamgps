@@ -13,10 +13,12 @@ function App() {
         <NavBar />
       </header>
       <Routes>
+        {/* when the path  is "/" we want to render element Homepage */}
         <Route path="/" element={<HomePage />} />
         <Route path="/PatientDatabase" element={<PatientDatabase />} />
         <Route path="/DoctorSchedule" element={<DoctorSchedule />} />
         <Route path="/PatientSignUp" element={<Signup />} />
+        {/* use dynamic routing wih : to ask for data in your url (so a specific patient id from the api, such as facebook fetching data to show a page with user specific info) */}
         <Route path="/patients/:id" element={<DetailPatient />} />
       </Routes>
     </div>

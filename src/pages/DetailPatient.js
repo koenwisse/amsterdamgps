@@ -6,6 +6,7 @@ export default function DetailPatient() {
   // useState to handle the state of the details and set new state
   const [details, setDetails] = useState(null);
   // useParams, used by a component rendered by a <Route> with a dynamic path to get the names and values of the current URL’s parameters
+  //
   const { id } = useParams();
 
   // useeEffect Hook to usee axios to fetch Data from api

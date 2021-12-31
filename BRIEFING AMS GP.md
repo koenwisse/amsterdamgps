@@ -241,14 +241,16 @@ GET /patients/:patientId
 
 https://my-json-server.typicode.com/Codaisseur/patient-doctor-data/patients/5856675843
 
-| Criteria                                                                      | Points |
-| ----------------------------------------------------------------------------- | ------ |
-| 1 Dynamic route is implemented using React Router for the patient detail page | 1      |
-| The page displays the firstname, lastname, gender, dateOfBirth of a patient   | 0.5    |
-| The page displays the email, phoneNumber & prescriptions of a patient         | 0.5    |
-| The data on the page is fetched from the api, not hardcoded                   | 2      |
-| The data of all the patients is fetched from the api on this page             | -1     |
-| Total                                                                         | 5      |
+| Criteria | Points                                                                        |
+| -------- | ----------------------------------------------------------------------------- | --- |
+| DONE     | 1 Dynamic route is implemented using React Router for the patient detail page | 1   |
+| DONE     | The page displays the firstname, lastname, gender, dateOfBirth of a patient   | 0.5 |
+| DONE     | The page displays the email, phoneNumber & prescriptions of a patient         | 0.5 |
+| DONE     | The data on the page is fetched from the api, not hardcoded                   | 2   |
+| DONE     | The data of all the patients is fetched from the api on this page             | -1  |
+| Total    | 5                                                                             |
+
+RESULT 5/5
 
 ### 7. Express server
 
