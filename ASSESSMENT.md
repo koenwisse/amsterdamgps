@@ -1,15 +1,37 @@
-| Section           | Max Points | Self | Evaluator |
-| ----------------- | ---------- | ---- | --------- |
-| 1 Navigation      | 5          | 0/5  | 0/5       |
-| 2 Contact Details | 4          | 0/4  | 0/4       |
-| 3 Availability    | 7          | 0/7  | 0/7       |
-| 4 Sign up         | 8          | 0/8  | 0/8       |
-| 5 Patient DB      | 16         | 0/16 | 0/16      |
-| 6 Patient Details | 5          | 0/5  | 0/5       |
-| 7 Express server  | 7          | 0/7  | 0/7       |
-| 8 Styling         | 2          | 0/2  | 0/2       |
-| 9 Finishing up    | 6          | 0/6  | 0/6       |
-| Total             | 60         | 0/60 | 0/60      |
+### 9. Finishing up
+
+- Self assess:
+  - Make a file called `ASSESSMENT.md`
+  - Copy the rubric below into it
+  - Score your assessment in the column `Self`
+  - Leave room for the evaluator to fill in the `Evaluator` column
+- Write a reflection about this assessment & your learning process in `REFLECTION.md`:
+  - What did you do well, process wise
+  - What would you do differently next time to improve, process wise
+- Commit your code and use messages when you commit, push it to your respositories using `git push origin master`
+
+| Criteria                                                                         | Points |
+| -------------------------------------------------------------------------------- | ------ |
+| Student performed an accurate self assessment (within 7 points of the evaluator) | 2      |
+| Student can reflect on their process by writing a reflection of ~200 words       | 2      |
+| Student has committed at least once per section                                  | 1      |
+| Student has pushed their repository using git                                    | 1      |
+| Total                                                                            | 6      |
+
+# Self assessment
+
+| Section           | Max Points | Self  | Evaluator |
+| ----------------- | ---------- | ----- | --------- |
+| 1 Navigation      | 5          | 5/5   | 0/5       |
+| 2 Contact Details | 4          | 4/4   | 0/4       |
+| 3 Availability    | 7          | 7/7   | 0/7       |
+| 4 Sign up         | 8          | 6/8   | 0/8       |
+| 5 Patient DB      | 16         | 16/16 | 0/16      |
+| 6 Patient Details | 5          | 5/5   | 0/5       |
+| 7 Express server  | 7          | 0/7   | 0/7       |
+| 8 Styling         | 2          | 0/2   | 0/2       |
+| 9 Finishing up    | 6          | 6/6   | 0/6       |
+| Total             | 60         | 49/60 | 0/60      |
 
 | 1. Navigation - Criteria                                  | Points | Self | Evaluator |
 | --------------------------------------------------------- | ------ | ---- | --------- |

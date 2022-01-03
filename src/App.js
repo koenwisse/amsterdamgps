@@ -18,7 +18,7 @@ function App() {
         <Route path="/PatientDatabase" element={<PatientDatabase />} />
         <Route path="/DoctorSchedule" element={<DoctorSchedule />} />
         <Route path="/PatientSignUp" element={<Signup />} />
-        {/* use dynamic routing wih : to ask for data in your url (so a specific patient id from the api, such as facebook fetching data to show a page with user specific info) */}
+        {/* use dynamic routing wih : to ask for data in your url. Parameters work like function arguments. Parameters allow you to input controllable variables through requests. */}
         <Route path="/patients/:id" element={<DetailPatient />} />
       </Routes>
     </div>

@@ -147,7 +147,7 @@ Business logic: the practice is open between 08:00 and 16:59
 | Total    | 4                                                                      |
 
 Hint: You will have to google how to get the current hour of the day using javascript to be able to display **open** or **closed** dynamically.
-RESULT: 5/5 POINTS
+RESULT: 4/4 POINTS
 
 ### 3. As a patient I want to see which doctors are on duty so I can determine wether I should go to the doctor today
 
@@ -169,7 +169,7 @@ DONE - On our who is on duty page, we display up to date information about which
 | DONE                                                    | Doctor availability is displayed using an html `table` element    | 1   |
 | Total                                                   | 7                                                                 |
 
-RESULT: 5/5 POINTS
+RESULT: 7/7 POINTS
 
 ### 4. As a new patient I want to be able to sign up
 
@@ -215,23 +215,23 @@ https://my-json-server.typicode.com/Codaisseur/patient-doctor-data/doctors
 | Dr. Adenet   | 2             |
 | Dr. Tollady  | 3             |
 
-| Criteria                                                          | Points                                                                    |
-| ----------------------------------------------------------------- | ------------------------------------------------------------------------- | --- |
-| DONE                                                              | The `name`, `id` & `dateOfBirth` is displayed for all patients            | 1   |
-| DONE                                                              | The data for each patient is displayed using a separate component         | 2   |
-| DONE                                                              | The data is displayed using .map                                          | 1   |
-| DONE                                                              | There is a warning in the console regarding "key" props                   | -1  |
-| DONE                                                              | The patients are sorted by their `lastName` using .sort                   | 2   |
-| DONE                                                              | The data for the patients is fetched from the api, not hardcoded          | 1   |
-| DONE                                                              | Each patient displayed has a `show details` button                        | 0.5 |
-| The show details button links to the detail page for that patient | 1.5                                                                       |
-| DONE                                                              | The page has a `select` input for the 3 doctors names and `all`           | 1   |
-| DONE                                                              | When `all` is selected, all patients are displayed                        | 1   |
-| DONE                                                              | Selecting the name of a doctor filters the patients that are displayed    | 3   |
-| DONE                                                              | The names of the doctors in the `select` input are fetched, not hardcoded | 2   |
-| Total                                                             | 16                                                                        |
+| Criteria | Points                                                                    |
+| -------- | ------------------------------------------------------------------------- | --- |
+| DONE     | The `name`, `id` & `dateOfBirth` is displayed for all patients            | 1   |
+| DONE     | The data for each patient is displayed using a separate component         | 2   |
+| DONE     | The data is displayed using .map                                          | 1   |
+| DONE     | There is a warning in the console regarding "key" props                   | -1  |
+| DONE     | The patients are sorted by their `lastName` using .sort                   | 2   |
+| DONE     | The data for the patients is fetched from the api, not hardcoded          | 1   |
+| DONE     | Each patient displayed has a `show details` button                        | 0.5 |
+| DONE     | The show details button links to the detail page for that patient         | 1.5 |
+| DONE     | The page has a `select` input for the 3 doctors names and `all`           | 1   |
+| DONE     | When `all` is selected, all patients are displayed                        | 1   |
+| DONE     | Selecting the name of a doctor filters the patients that are displayed    | 3   |
+| DONE     | The names of the doctors in the `select` input are fetched, not hardcoded | 2   |
+| Total    | 16                                                                        |
 
-RESULT: 14.5
+RESULT: 16/16
 
 ### 6. As a doctor I want to be able to view the details of my patients, so I can make good decisions
 
@@ -262,16 +262,16 @@ RESULT 5/5
 
 https://my-json-server.typicode.com/Codaisseur/patient-doctor-data/db
 
-| Criteria                                                                                       | Points |
-| ---------------------------------------------------------------------------------------------- | ------ |
-| There is a file called server.js & a package.json, in your server repository                   | 0.5    |
-| package.json contains a script called `server`, which runs the server.js file with node        | 0.5    |
-| package.json contains a script called `server-dev`, which runs the server.js file with nodemon | 0.5    |
-| running server.js starts an express server which listens on port 4000                          | 1      |
-| Requests to http://localhost:4000/patients get a response of an array with 10 patients         | 1      |
-| Requests to http://localhost:4000/doctors get a response of an array of 3 doctors              | 1      |
-| Requests to http://localhost:4000/patients/:id get a response of 1 patient object with that id | 2.5    |
-| Total                                                                                          | 7      |
+| Criteria                                                                                       | Points                                                                |
+| ---------------------------------------------------------------------------------------------- | --------------------------------------------------------------------- | --- |
+| There is a file called server.js & a package.json, in your server repository                   | 0.5                                                                   |
+| package.json contains a script called `server`, which runs the server.js file with node        | 0.5                                                                   |
+| package.json contains a script called `server-dev`, which runs the server.js file with nodemon | 0.5                                                                   |
+| DONE                                                                                           | running server.js starts an express server which listens on port 4000 | 1   |
+| Requests to http://localhost:4000/patients get a response of an array with 10 patients         | 1                                                                     |
+| Requests to http://localhost:4000/doctors get a response of an array of 3 doctors              | 1                                                                     |
+| Requests to http://localhost:4000/patients/:id get a response of 1 patient object with that id | 2.5                                                                   |
+| Total                                                                                          | 7                                                                     |
 
 ### 8. Styling
 
