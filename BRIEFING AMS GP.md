@@ -114,15 +114,16 @@ A wireframe of the app will be provided to you along with this assessment. To ge
   - Who is on duty: should link to the who is on duty page
   - I am a new patient: should link to the patient sign up page
 
-| Criteria                                                  | Points |
-| --------------------------------------------------------- | ------ |
-| 4 Static Routes are implemented using react router        | 1      |
-| Each route renders a different component                  | 1      |
-| A navbar can be used to navigate between the static pages | 1      |
-| 2 Buttons link to the correct pages                       | 1      |
-| The navbar indicates what page you are on                 | 1      |
-| Total                                                     | 5      |
+| Criteria | Points                                                    |
+| -------- | --------------------------------------------------------- | --- |
+| DONE     | 4 Static Routes are implemented using react router        | 1   |
+| DONE     | Each route renders a different component                  | 1   |
+| DONE     | A navbar can be used to navigate between the static pages | 1   |
+| DONE     | 2 Buttons link to the correct pages                       | 1   |
+| DONE     | The navbar indicates what page you are on                 | 1   |
+| Total    | 5                                                         |
 
+RESULT: 5 POINTS
 Hint: to indicate what page a user is on use the `<NavLink />` component
 
 https://github.com/ReactTraining/react-router/blob/master/packages/react-router-dom/docs/api/NavLink.md
@@ -131,20 +132,22 @@ https://github.com/ReactTraining/react-router/blob/master/packages/react-router-
 
 ### 2. As a patient I want know how and when to contact the practice
 
-- On the homepage _and_ on the who is on duty page, we should display a phone number of the practice
-- We also want to indicate wether the practice is **open** or **closed** at the moment when the user visit the page (updating open or closed while the user is already on the page is not required)
+DONE - On the homepage _and_ on the who is on duty page, we should display a phone number of the practice
+
+DONE - We also want to indicate wether the practice is **open** or **closed** at the moment when the user visit the page (updating open or closed while the user is already on the page is not required)
 
 Business logic: the practice is open between 08:00 and 16:59
 
-| Criteria                                                               | Points |
-| ---------------------------------------------------------------------- | ------ |
-| Phone number is displayed on both pages                                | 0.5    |
-| Wether the practice is open right now is displayed on both pages       | 0.5    |
-| Wether the practice is open or closed is dynamic, not hardcoded        | 2      |
-| To display this information the same component is reused on both pages | 1      |
-| Total                                                                  | 4      |
+| Criteria | Points                                                                 |
+| -------- | ---------------------------------------------------------------------- | --- |
+| DONE     | Phone number is displayed on both pages                                | 0.5 |
+| DONE     | Wether the practice is open right now is displayed on both pages       | 0.5 |
+| DONE     | Wether the practice is open or closed is dynamic, not hardcoded        | 2   |
+| DONE     | To display this information the same component is reused on both pages | 1   |
+| Total    | 4                                                                      |
 
 Hint: You will have to google how to get the current hour of the day using javascript to be able to display **open** or **closed** dynamically.
+RESULT: 4/4 POINTS
 
 ### 3. As a patient I want to see which doctors are on duty so I can determine wether I should go to the doctor today
 
@@ -154,17 +157,19 @@ GET /doctors
 
 https://my-json-server.typicode.com/Codaisseur/patient-doctor-data/doctors
 
-- On our who is on duty page, we display up to date information about which doctor is on duty.
+DONE - On our who is on duty page, we display up to date information about which doctor is on duty.
 
-| Criteria                                                          | Points |
-| ----------------------------------------------------------------- | ------ |
-| Doctor availabilty is displayed on the who is on duty page        | 1      |
-| The data is fetched from the api, not hardcoded                   | 2      |
-| If the data is still being fetched, display "loading" to the user | 2      |
-| The data is displayed using .map                                  | 1      |
-| There is a warning in the console regarding "key" props           | -1     |
-| Doctor availability is displayed using an html `table` element    | 1      |
-| Total                                                             | 7      |
+| Criteria                                                | Points                                                            |
+| ------------------------------------------------------- | ----------------------------------------------------------------- | --- |
+| DONE                                                    | Doctor availabilty is displayed on the who is on duty page        | 1   |
+| DONE                                                    | The data is fetched from the api, not hardcoded                   | 2   |
+| DONE                                                    | If the data is still being fetched, display "loading" to the user | 2   |
+| DONE                                                    | The data is displayed using .map                                  | 1   |
+| There is a warning in the console regarding "key" props | -1                                                                |
+| DONE                                                    | Doctor availability is displayed using an html `table` element    | 1   |
+| Total                                                   | 7                                                                 |
+
+RESULT: 7/7 POINTS
 
 ### 4. As a new patient I want to be able to sign up
 
@@ -172,17 +177,19 @@ https://my-json-server.typicode.com/Codaisseur/patient-doctor-data/doctors
 - Once they have signed up successfully we want to give them some confirmation everything went well.
 - We will not actually store the data, console.logging the data from the form to console is good enough for now
 
-| Criteria                                                                         | Points |
-| -------------------------------------------------------------------------------- | ------ |
-| A form is displayed on the Patient Signup page                                   | 1      |
-| The form has inputs for firstName, lastName, email, phoneNumber & submit         | 0.5    |
-| The form has a select input for gender, and a date input for dateOfBirth         | 0.5    |
-| The state of the form is controlled using React useState hook(s)                 | 2      |
-| When the form is submitted, the user input for all form fields is console.logged | 2      |
-| When the form has been submitted, we show a success message to the user          | 2      |
-| The success message is an alert, prompt or confirm popup                         | -1     |
-| Submitting the form refreshes the page                                           | -2     |
-| Total                                                                            | 8      |
+| Criteria                                                 | Points                                                                           |
+| -------------------------------------------------------- | -------------------------------------------------------------------------------- | --- |
+| DONE                                                     | A form is displayed on the Patient Signup page                                   | 1   |
+| DONE                                                     | The form has inputs for firstName, lastName, email, phoneNumber & submit         | 0.5 |
+| DONE                                                     | The form has a select input for gender, and a date input for dateOfBirth         | 0.5 |
+| DONE                                                     | The state of the form is controlled using React useState hook(s)                 | 2   |
+| DONE                                                     | When the form is submitted, the user input for all form fields is console.logged | 2   |
+| DONE                                                     | When the form has been submitted, we show a success message to the user          | 2   |
+| The success message is an alert, prompt or confirm popup | -1                                                                               |
+| Submitting the form refreshes the page                   | -2                                                                               |
+| Total                                                    | 8                                                                                |
+
+RESULT: 6/8 POINTS, success message struggled with
 
 ### 5. As a doctor I want to be able to view which patients I have, so I can see who I am responsible for
 
@@ -208,21 +215,23 @@ https://my-json-server.typicode.com/Codaisseur/patient-doctor-data/doctors
 | Dr. Adenet   | 2             |
 | Dr. Tollady  | 3             |
 
-| Criteria                                                                  | Points |
-| ------------------------------------------------------------------------- | ------ |
-| The `name`, `id` & `dateOfBirth` is displayed for all patients            | 1      |
-| The data for each patient is displayed using a separate component         | 2      |
-| The data is displayed using .map                                          | 1      |
-| There is a warning in the console regarding "key" props                   | -1     |
-| The patients are sorted by their `lastName` using .sort                   | 2      |
-| The data for the patients is fetched from the api, not hardcoded          | 1      |
-| Each patient displayed has a `show details` button                        | 0.5    |
-| The show details button links to the detail page for that patient         | 1.5    |
-| The page has a `select` input for the 3 doctors names and `all`           | 1      |
-| When `all` is selected, all patients are displayed                        | 1      |
-| Selecting the name of a doctor filters the patients that are displayed    | 3      |
-| The names of the doctors in the `select` input are fetched, not hardcoded | 2      |
-| Total                                                                     | 16     |
+| Criteria | Points                                                                    |
+| -------- | ------------------------------------------------------------------------- | --- |
+| DONE     | The `name`, `id` & `dateOfBirth` is displayed for all patients            | 1   |
+| DONE     | The data for each patient is displayed using a separate component         | 2   |
+| DONE     | The data is displayed using .map                                          | 1   |
+| DONE     | There is a warning in the console regarding "key" props                   | -1  |
+| DONE     | The patients are sorted by their `lastName` using .sort                   | 2   |
+| DONE     | The data for the patients is fetched from the api, not hardcoded          | 1   |
+| DONE     | Each patient displayed has a `show details` button                        | 0.5 |
+| DONE     | The show details button links to the detail page for that patient         | 1.5 |
+| DONE     | The page has a `select` input for the 3 doctors names and `all`           | 1   |
+| DONE     | When `all` is selected, all patients are displayed                        | 1   |
+| DONE     | Selecting the name of a doctor filters the patients that are displayed    | 3   |
+| DONE     | The names of the doctors in the `select` input are fetched, not hardcoded | 2   |
+| Total    | 16                                                                        |
+
+RESULT: 16/16
 
 ### 6. As a doctor I want to be able to view the details of my patients, so I can make good decisions
 
@@ -232,14 +241,16 @@ GET /patients/:patientId
 
 https://my-json-server.typicode.com/Codaisseur/patient-doctor-data/patients/5856675843
 
-| Criteria                                                                      | Points |
-| ----------------------------------------------------------------------------- | ------ |
-| 1 Dynamic route is implemented using React Router for the patient detail page | 1      |
-| The page displays the firstname, lastname, gender, dateOfBirth of a patient   | 0.5    |
-| The page displays the email, phoneNumber & prescriptions of a patient         | 0.5    |
-| The data on the page is fetched from the api, not hardcoded                   | 2      |
-| The data of all the patients is fetched from the api on this page             | -1     |
-| Total                                                                         | 5      |
+| Criteria | Points                                                                        |
+| -------- | ----------------------------------------------------------------------------- | --- |
+| DONE     | 1 Dynamic route is implemented using React Router for the patient detail page | 1   |
+| DONE     | The page displays the firstname, lastname, gender, dateOfBirth of a patient   | 0.5 |
+| DONE     | The page displays the email, phoneNumber & prescriptions of a patient         | 0.5 |
+| DONE     | The data on the page is fetched from the api, not hardcoded                   | 2   |
+| DONE     | The data of all the patients is fetched from the api on this page             | -1  |
+| Total    | 5                                                                             |
+
+RESULT 5/5
 
 ### 7. Express server
 
@@ -251,16 +262,16 @@ https://my-json-server.typicode.com/Codaisseur/patient-doctor-data/patients/5856
 
 https://my-json-server.typicode.com/Codaisseur/patient-doctor-data/db
 
-| Criteria                                                                                       | Points |
-| ---------------------------------------------------------------------------------------------- | ------ |
-| There is a file called server.js & a package.json, in your server repository                   | 0.5    |
-| package.json contains a script called `server`, which runs the server.js file with node        | 0.5    |
-| package.json contains a script called `server-dev`, which runs the server.js file with nodemon | 0.5    |
-| running server.js starts an express server which listens on port 4000                          | 1      |
-| Requests to http://localhost:4000/patients get a response of an array with 10 patients         | 1      |
-| Requests to http://localhost:4000/doctors get a response of an array of 3 doctors              | 1      |
-| Requests to http://localhost:4000/patients/:id get a response of 1 patient object with that id | 2.5    |
-| Total                                                                                          | 7      |
+| Criteria                                                                                       | Points                                                                |
+| ---------------------------------------------------------------------------------------------- | --------------------------------------------------------------------- | --- |
+| There is a file called server.js & a package.json, in your server repository                   | 0.5                                                                   |
+| package.json contains a script called `server`, which runs the server.js file with node        | 0.5                                                                   |
+| package.json contains a script called `server-dev`, which runs the server.js file with nodemon | 0.5                                                                   |
+| DONE                                                                                           | running server.js starts an express server which listens on port 4000 | 1   |
+| Requests to http://localhost:4000/patients get a response of an array with 10 patients         | 1                                                                     |
+| Requests to http://localhost:4000/doctors get a response of an array of 3 doctors              | 1                                                                     |
+| Requests to http://localhost:4000/patients/:id get a response of 1 patient object with that id | 2.5                                                                   |
+| Total                                                                                          | 7                                                                     |
 
 ### 8. Styling
 
